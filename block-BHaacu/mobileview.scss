@@ -1,0 +1,51 @@
+@media screen and(max-width: 768px) {
+  .nav-list {
+    margin-top: 1rem;
+  }
+
+  .sm-width {
+    width: 100%;
+  }
+  .follow {
+    margin-top: 1rem;
+  }
+
+  .nav-list-footer {
+    margin-top: 1rem;
+  }
+
+  .leader {
+    strong {
+      color: $primary;
+      font-weight: bold;
+    }
+  }
+
+  .leader .goals .goals-image {
+    width: 100%;
+    text-align: center;
+  }
+  .leader .goals .goals-article {
+    width: 100%;
+  }
+  .our-team fieldset .team-box {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .cleints-img {
+    overflow: auto;
+
+    img {
+      width: 40%;
+      margin: 0 1rem;
+    }
+  }
+  .about-btn {
+    background-color: $primary;
+    color: $white;
+  }
+  .aboutUs {
+    margin-top: 3.6rem;
+  }
+}
