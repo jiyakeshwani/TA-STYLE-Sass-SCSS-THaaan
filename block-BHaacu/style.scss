@@ -1,0 +1,87 @@
+.aboutUs {
+  background-color: $primary;
+  color: $white;
+  text-align: center;
+  padding: 2rem 0;
+  p {
+    font-size: 1rem;
+  }
+}
+
+.leader {
+  strong {
+    color: $primary;
+    font-weight: bold;
+  }
+
+  .goals {
+    margin-top: 4rem;
+    width: 100%;
+
+    .goals-image {
+      width: 47%;
+      img {
+        width: 60%;
+      }
+    }
+
+    .goals-article {
+      div {
+        margin-top: 1.5rem;
+      }
+      width: 47%;
+      i {
+        font-size: 2rem;
+        margin-right: 2rem;
+      }
+      h4 {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        color: $gray;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.solutions {
+  background-color: $white;
+}
+
+.our-team {
+  background-color: $secondary;
+
+  padding: 3rem 0;
+  fieldset {
+    margin-top: 2rem;
+    width: 100%;
+    .team-box {
+      width: 23%;
+      figure {
+        width: 100%;
+        line-height: 0;
+      }
+      span {
+        display: block;
+      }
+      .name-plate {
+        padding: 1rem 0;
+        background-color: $white;
+        strong {
+          font-weight: bold;
+        }
+        span {
+          color: $primary;
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
+
+.about-btn {
+  background-color: $primary;
+  color: $white;
+}
